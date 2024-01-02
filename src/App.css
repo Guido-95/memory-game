@@ -170,3 +170,20 @@
   left: 80px;
   color: lightblue;
 }
+.avviso{
+  display: none;
+}
+@media screen and (max-width: 1500px) {
+  .main{
+    display: none;
+  }
+  .avviso{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-weight: bold;
+    font-size: 20px;
+  }
+}

@@ -175,6 +175,7 @@ function App() {
     };
   }
   return (
+    <>
     <div className='main'>
       {
         level === 1 ?
@@ -222,8 +223,11 @@ function App() {
            Complimenti, clicca QUI per giocare ancora
         </div> 
       }
-      
     </div>
+    <div className="avviso">
+     <p>Solo dispositivi con risoluzione 1500px+</p>
+   </div>
+   </>
   )
 }
 
